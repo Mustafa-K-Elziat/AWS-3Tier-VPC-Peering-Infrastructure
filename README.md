@@ -9,7 +9,7 @@ Network CIDR Block: 10.0.0.0/16
 High Availability (HA): The network infrastructure is distributed across two distinct Availability Zones (us-east-1a and us-east-1b) to prevent a single point of failure (SPOF) and guarantee fault tolerance.
 
 Network Segmentation (Subnet Layers):
-![AWS Multi-VPC Architecture Diagram](1.jpej)
+![AWS Multi-VPC Architecture Diagram](1.jpeg)
 Public Subnets (10.0.1.0/24 and 10.0.2.0/24): * Host the external-facing EC2 Web Servers, which are assigned Public IPs to listen to internet traffic.
 
 Host the managed NAT Gateways assigned with static Elastic IPs. These gateways allow internal backend resources to securely connect out to the internet without exposing them to inbound threats.
